@@ -1,5 +1,5 @@
 {
-  "originHash" : "39f6baef329b0ccf0e510d2e732725f13e57a58d911df45f62e2771d820f0a87",
+  "originHash" : "13723c2b290babc0a7b97c3bd548dfe56b73bf7c9bb0741a0cd44e01bfd9ad7a",
   "pins" : [
     {
       "identity" : "swift-docc-plugin",
@@ -17,6 +17,15 @@
       "state" : {
         "revision" : "b45d1f2ed151d057b54504d653e0da5552844e34",
         "version" : "1.0.0"
+      }
+    },
+    {
+      "identity" : "swiftstylekit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/UnpxreTW/SwiftStyleKit.git",
+      "state" : {
+        "revision" : "ecaf21ceab4ad173fa520d88dcb32754212a7c48",
+        "version" : "1.1.2"
       }
     }
   ],
