@@ -6,6 +6,7 @@ version = 1
 path = [
 	".github/dependabot.yml",
 	".gitignore",
+	"EmulatorSmoke.entitlements",
 	"NOTICE",
 	"Package.swift",
 	"Package.resolved",
