@@ -25,7 +25,7 @@ let package = Package(
 			dependencies: ["Emulator"],
 			plugins: [.plugin(name: "SwiftStyleLint", package: "SwiftStyleKit")]
 		),
-		// EmulatorTests：不依賴 HVF 的純邏輯測試。
+		// EmulatorTests：不依賴 Hypervisor.framework 的純邏輯測試。
 		.testTarget(
 			name: "EmulatorTests",
 			dependencies: ["Emulator"],

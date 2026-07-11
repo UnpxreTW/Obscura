@@ -28,7 +28,7 @@ final class VirtualMachine {
 	}
 
 	deinit {
-		// HVF 的 VM 是 process 全域、沒有 handle，所以 destroy 不帶參數。
+		// Hypervisor.framework 的 VM 是 process 全域、沒有 handle，所以 destroy 不帶參數。
 		hv_vm_destroy()
 	}
 
