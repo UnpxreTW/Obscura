@@ -9,7 +9,7 @@
 import Hypervisor
 
 /// 一個 Hypervisor.framework 虛擬機。
-final class VirtualMachine {
+public final class VirtualMachine {
 
 	/// 把一塊 host 記憶體映射進 guest 的實體位址空間。
 	public func mapMemory(

@@ -9,7 +9,7 @@
 import Hypervisor
 
 /// Hypervisor.framework 呼叫失敗時拋出，包住原始 `hv_return_t` 結果碼。
-struct HypervisorError: Error {
+public struct HypervisorError: Error {
 
-	let status: hv_return_t
+	public let status: hv_return_t
 }
